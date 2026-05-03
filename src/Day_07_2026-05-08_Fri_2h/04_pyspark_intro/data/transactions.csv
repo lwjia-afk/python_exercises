@@ -1,0 +1,9 @@
+txn_id,category,amount
+1,food,12.5
+2,transport,30.0
+3,food,8.0
+4,entertainment,22.0
+5,transport,15.0
+6,food,-5.0
+7,rent,1200.0
+8,food,14.5
