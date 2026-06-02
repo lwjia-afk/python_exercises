@@ -3,7 +3,9 @@
     "allow": [
       "PowerShell(python --version)",
       "PowerShell(python -c \"import sys; print\\(sys.executable\\)\")",
-      "PowerShell(python -m pip install pandas)"
+      "PowerShell(python -m pip install pandas)",
+      "PowerShell(& 'c:\\\\Users\\\\lwjia\\\\Documents\\\\Claude\\\\Projects\\\\Prepare the technical interview\\\\python_exercises\\\\.venv\\\\Scripts\\\\python.exe' -c \"import pyspark; print\\(pyspark.__version__\\)\")",
+      "Read(//c/Program Files/Eclipse Adoptium/**)"
     ]
   }
 }

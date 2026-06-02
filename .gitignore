@@ -40,3 +40,14 @@ htmlcov/
 
 # Claude Code (local settings are machine-specific)
 .claude/settings.local.json
+
+# Data science projects — large data files and artifacts
+projects/*/data/*.csv
+projects/*/data/*.zip
+projects/*/data/*.parquet
+projects/*/outputs/*.pkl
+projects/*/outputs/*.joblib
+projects/*/outputs/submission*.csv
+# Keep the directories themselves tracked
+!projects/*/data/.gitkeep
+!projects/*/outputs/.gitkeep
